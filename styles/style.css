@@ -1,0 +1,100 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+}
+
+social-posts { 
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+
+  padding: 20px;
+
+
+}
+
+.chirp-feed {
+  background-color: rgb(50,100,200);
+
+  margin: 20px 0;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+li {
+  box-sizing: border-box;
+  list-style-type: none;
+
+  position: relative;
+
+  background-color: white;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+post-form {
+  width: 100%;
+}
+
+form { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(50,100,200);;
+
+  border-radius: 8px;
+}
+
+label {
+  margin: 5px 0;
+  padding: 0 8px;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.form-field {
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 8px;
+
+  font-size: 1rem;
+}
+
+button { 
+  width: 100%;
+  min-height: 30px;
+
+  margin: 10px 0;
+  padding: 5px;
+
+  border: 2px solid black;
+  border-radius: 8px;
+
+  font-size: 1rem;
+}
+
+i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
